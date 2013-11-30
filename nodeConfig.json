@@ -1,0 +1,28 @@
+{
+   "capabilities":[
+      {
+         "platform":"MAC",
+         "browserName":"firefox",
+         "version":"21",
+         "maxInstances":3
+      },
+      {
+         "platform":"MAC",
+         "browserName":"chrome",
+         "version":"30",
+         "maxInstances":1
+      }
+   ],
+   "configuration":{
+      "port":5555,
+      "hubPort":9000,
+      "host": ip,
+      "hubHost":"localhost",
+      "nodePolling":2000,
+      "registerCycle":10000,
+      "register":true,
+      "cleanUpCycle":2000,
+      "maxSession":10,
+      "role":"node"
+   }
+}
