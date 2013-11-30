@@ -7,10 +7,12 @@ These are just 2 example config.json for hub and node just use the latest seleni
 
 
 ## Hub Config
-
-java -jar selenium-server-standalone-2.34.0.jar -role hub -hubConfig hubConfig.json -DPOOL_MAX=512
+```
+  java -jar selenium-server-standalone-2.34.0.jar -role hub -hubConfig hubConfig.json -DPOOL_MAX=512
+```
 
 ## Node Config
 
-
-java -jar selenium-server-standalone-2.34.0.jar -role webdriver -nodeConfig nodeConfig.json 
+```
+  java -jar selenium-server-standalone-2.34.0.jar -role webdriver -nodeConfig nodeConfig.json 
+```
